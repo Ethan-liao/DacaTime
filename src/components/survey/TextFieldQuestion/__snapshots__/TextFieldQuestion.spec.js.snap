@@ -1,0 +1,24 @@
+exports[`test renders correctly 1`] = `
+<div
+  className="dt-panel dt-question-container">
+  <div
+    className="dt-question-header">
+    When does your DACA status expire?
+  </div>
+  <div>
+    <p
+      className="control-label">
+      MM/DD/YYYY
+    </p>
+    <input
+      className="survey-input"
+      list={undefined}
+      onBlur={[Function]}
+      onChange={[Function]}
+      pattern="^\\d{2}\\/\\d{2}\\/\\d{4}$"
+      placeholder="MM/DD/YYYY"
+      type="text"
+      value="" />
+  </div>
+</div>
+`;
